@@ -114,6 +114,26 @@ a:hover {
   color: rgb(220, 114, 95, 0.5);
 }
 
+
+.list-interests {
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 20px;
+}
+
+.list-interests li {
+  display: inline;
+  padding: 10px;
+}
+.list-interests i {
+  font-size: 20px;
+  color: rgb(220, 114, 95);
+}
+.list-interests i:hover {
+  color: rgb(220, 114, 95, 0.5);
+}
+
+
 /* Design adjustments using id (1% design remaining) */
 #introduction p {
   margin-bottom: 40px;
