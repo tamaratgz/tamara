@@ -1,76 +1,54 @@
-/* font-family: 'Montserrat', sans-serif; */
-/* font-family: 'Raleway', sans-serif; */
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Raleway:wght@500;800&display=swap');
 @import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
 
-
+/* Colors and fonts */
 body {
-  background-image: url("images/home_background.jpg");
-  background-size: cover;
   background-color: rgba(255, 255, 255, 0.7);
-  background-blend-mode: lighten;
   color: black;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
   font-size: 16px;
-  line-height: 25px;
+  font-weight: 100;
+  background-image: url("images/home_background.jpg");
+  background-size: cover;
+  background-blend-mode: lighten;
 }
 
+/* body {
+  line-height: 25px;
+} */
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
 h1 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
   color: rgb(56, 56, 56);
-  line-height: 25px;
-  font-size: 30px;
+  font-size: 32px;
+  font-weight: 900;
+  /* line-height: 25px; */
 }
-
 h2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
   color: rgb(56, 56, 56);
-  line-height: 25px;
   font-size: 20px;
-}
-
-.btn {
-  background-color: rgb(220, 114, 95);
-  color: white;
-  border-radius: 7px;
-  padding: 15px;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+  /* line-height: 25px; */
 }
 
-.btn:hover {
-  background-color: rgb(220, 114, 95, 0.5);
-}
-
-img {
-  object-fit: cover;
-  width:100px;
-  height:100px;
-  border-radius: 50%;
-}
-
-.icon {
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
   color: rgb(220, 114, 95);
-  font-size: 40px;
-  padding: 0px 5px;
+  font-weight: 600;
+  font-size: 16px;
 }
 
-.icon:hover {
+a:hover {
   color: rgb(220, 114, 95, 0.5);
 }
 
-ul {
-  padding-inline-start: 0px;
-  list-style-type: none;
-  display: inline-flex;
-}
 
+/* Custom design with class (99% of your design) */
 .container {
+  width: 700px;
   margin: 40px auto;
 }
 
@@ -93,11 +71,50 @@ ul {
   }
 }
 
-.card {
-  background-color: rgb(255, 255, 255);
-  padding: 50px 50px 30px;
-  box-shadow: 0px 10px 30px rgba(123, 123, 123, 0.2);
-  border-radius: 7px;
-  margin: 15px 350px;
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin: 20px 0px;
   text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn {
+  background-color: rgb(220, 114, 95);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  /* text-decoration: none; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-weight: 500; */
+}
+
+.btn:hover {
+  background-color: rgb(220, 114, 95, 0.5);
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 40px;
+  color: rgb(220, 114, 95);
+}
+.list-inline i:hover {
+  color: rgb(220, 114, 95, 0.5);
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
 }
