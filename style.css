@@ -2,7 +2,7 @@
 /* font-family: 'Raleway', sans-serif; */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Raleway:wght@500;800&display=swap');
-
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
 
 body {
   background-image: url("images/home_background.jpg");
@@ -20,12 +20,12 @@ body {
     font-weight: 800;
     color: rgb(56, 56, 56);
     line-height: 25px;
-    font-size: 30px;
+    font-size: 40px;
   }
 
   h2 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-weight: 900;
     color: rgb(56, 56, 56);
     line-height: 25px;
     font-size: 20px;
@@ -41,11 +41,12 @@ body {
     font-weight: 500;
   }
 
-  img {
+  #avatar {
     object-fit: cover;
-    width:100px;
-    height:100px;
+    width:120px;
+    height:120px;
     border-radius: 50%;
+    margin: 20px;
 }
 
 .icon {
@@ -70,14 +71,13 @@ ul {
 
 .card {
   background-color: rgb(255, 255, 255);
-  padding: 50px 50px 30px;
+  padding: 50px;
   box-shadow: 0px 10px 30px rgba(123, 123, 123, 0.2);
   border-radius: 7px;
   margin: 15px auto;
   text-align: center;
   max-width: 500px;
 }
-
 
 .list-inline li {
   display: inline;
@@ -102,7 +102,7 @@ ul {
   padding: 10px;
 }
 .list-interests i {
-  font-size: 20px;
+  font-size: 30px;
   color: rgb(220, 114, 95);
 }
 .list-interests i:hover {
